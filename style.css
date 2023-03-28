@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  margin-bottom: 30px;
+}
+.container {
+  color: rgb(20, 140, 200);
+  text-align: center;
+}
+
+.title {
+  font-size: 96px;
+  font-weight: 700;
+}
+
+.dice__container {
+  display: inline-block;
+  margin-right: 20px;
+}
+.dice__container:nth-of-type(2) {
+  margin-right: 0;
+}
+.dice__title {
+  font-size: 32px;
+}
+.dice__container img {
+  width: 200px;
+}
+.button {
+  font-size: 24px;
+  background-color: rgb(205, 9, 9);
+  padding: 12px 32px;
+  margin-top: 20px;
+  border: 0;
+  border-radius: 20px;
+}
+.button:hover {
+  background-color: rgb(20, 140, 200);
+  color: rgb(205, 9, 9);
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
